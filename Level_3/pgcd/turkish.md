@@ -1,7 +1,5 @@
 
-## Konu
 
-```c
 Ödev Adı: pgcd
 Beklenen Dosyalar: pgcd.c
 İzin verilen fonksiyonlar: printf, atoi, malloc, free
@@ -26,4 +24,3 @@ $> ./pgcd 17 3 | cat -e
 $> ./pgcd | cat -e
 $
 
-```

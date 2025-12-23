@@ -19,4 +19,3 @@ hello_world$
 $>./camel_to_snake | cat -e
 $
 
-```

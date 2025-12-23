@@ -1,7 +1,5 @@
 
-## Konu
 
-```c
 Ödev Adı: paramsum
 Beklenen Dosyalar: paramsum.c
 İzin verilen fonksiyonlar: write
@@ -21,4 +19,3 @@ $>./paramsum | cat -e
 0$
 $>
 
-```

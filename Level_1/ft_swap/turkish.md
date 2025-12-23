@@ -1,6 +1,4 @@
-## Konu
 
-```C
 Görev adı: ft_swap
 Beklenen dosyalar: ft_swap.c
 İzin verilen fonksiyonlar:
@@ -12,4 +10,3 @@ Fonksiyon şu şekilde tanımlanmalıdır:
 
 void	ft_swap(int *a, int *b);
 
-```

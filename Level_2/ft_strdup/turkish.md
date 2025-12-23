@@ -9,4 +9,3 @@ Fonksiyonunuzu şu şekilde tanımlayın:
 
 char *ft_strdup(char *src);
 
-```

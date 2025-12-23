@@ -1,8 +1,6 @@
 en minúscula, luego muestra el resultado seguido de un \n.
 
-## Konu
 
-```c
 Ödev Adı: rstr_capitalizer
 Beklenen Dosyalar: rstr_capitalizer.c
 İzin verilen fonksiyonlar: write
@@ -28,4 +26,3 @@ seconD tesT A littlE biT   moaR compleX$
      okay, thiS iS thE lasT 1239809147801 buT noT    thE leasT    T$
 $>
 
-```

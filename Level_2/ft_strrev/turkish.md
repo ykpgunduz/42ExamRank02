@@ -1,7 +1,5 @@
 
-## Konu
 
-```C
 Ödev Adı: ft_strrev
 Beklenen Dosyalar: ft_strrev.c
 İzin verilen fonksiyonlar: yok
@@ -15,4 +13,3 @@ Fonksiyonunuzu şu şekilde tanımlayın:
 
 char *ft_strrev(char *str);
 
-```

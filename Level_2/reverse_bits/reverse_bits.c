@@ -1,17 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   reverse_bits.c                                     :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: columbux <columbux@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/02 01:14:50 by columbux          #+#    #+#             */
-/*   Updated: 2024/05/03 02:33:33 by columbux         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-/* #include <stdio.h> */
-
 unsigned char	reverse_bits(unsigned char octet)
 {
 	unsigned char	result;
@@ -26,16 +12,3 @@ unsigned char	reverse_bits(unsigned char octet)
 	}
 	return (result);
 }
-/* 
-int	main(void)
-{
-	unsigned char	resultado;
-	unsigned char	octet;
-
-	octet = 0x42;
-	resultado = reverse_bits(octet);
-	printf("Octeto original: 0x%X\n", octet);
-	printf("Octeto con bits intercambiados: 0x%X\n", resultado);
-	return (0);
-}
- */

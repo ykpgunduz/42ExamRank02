@@ -11,4 +11,3 @@ void print_bits(unsigned char octet);
 
 Örneğin, print_bits fonksiyonuna 2 verirseniz "00000010" yazdırır.
 
-```

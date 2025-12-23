@@ -1,7 +1,5 @@
 
-## Konu
 
-```C
 Ödev Adı: max
 Beklenen Dosyalar: max.c
 İzin verilen fonksiyonlar: yok
@@ -17,4 +15,3 @@ Fonksiyon dizideki en büyük sayıyı döndürür.
 
 Dizi boşsa, fonksiyon 0 döndürür.
 
-```

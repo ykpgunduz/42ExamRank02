@@ -1,7 +1,5 @@
 
-## Konu
 
-```C
 Ödev Adı: do_op
 Beklenen Dosyalar: *.c, *.h
 İzin verilen fonksiyonlar: atoi, printf, write
@@ -26,4 +24,3 @@ $> ./do_op "1" "+" "-43" | cat -e
 $> ./do_op | cat -e
 $
 
-```

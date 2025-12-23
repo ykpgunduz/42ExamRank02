@@ -1,6 +1,4 @@
-## Subject
 
-```C
 Nombre de la tarea: sort_list
 Archivos esperados: sort_list.c
 Funciones permitidas:
@@ -32,4 +30,3 @@ int ascending(int a, int b)
 	return (a <= b);
 }
 
-```

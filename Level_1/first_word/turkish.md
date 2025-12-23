@@ -1,7 +1,5 @@
 de la cadena.
-## Konu
 
-```C
 Görev adı: first_word
 Beklenen dosyalar: first_word.c
 İzin verilen fonksiyonlar: write
@@ -27,4 +25,3 @@ $> ./first_word "  lorem,ipsum  " | cat -e
 lorem,ipsum$
 $>
 
-```

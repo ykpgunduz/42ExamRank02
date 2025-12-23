@@ -1,6 +1,3 @@
-## Subject
-
-```C
 Nombre de la tarea: ft_list_foreach
 Archivos esperados: ft_list_foreach.c, ft_list.h
 Funciones permitidas:
@@ -25,5 +22,3 @@ typedef struct    s_list
     struct s_list *next;
     void          *data;
 }                 t_list;
-
-````

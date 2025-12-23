@@ -11,4 +11,3 @@ Fonksiyonunuzu şu şekilde tanımlayın:
 
 int ft_atoi(const char *str);
 
-```

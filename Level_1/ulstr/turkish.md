@@ -1,6 +1,4 @@
-## Konu
 
-```C
 Görev adı: ulstr
 Beklenen dosyalar: ulstr.c
 İzin verilen fonksiyonlar: write
@@ -24,4 +22,3 @@ $>./ulstr "3:21 Ba  tOut  moUn ki Ka di KE m'en Ka fe fot" | cat -e
 $>./ulstr | cat -e
 $
 
-```

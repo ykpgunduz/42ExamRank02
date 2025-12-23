@@ -1,7 +1,5 @@
 
-## Konu
 
-```C
 Ödev Adı: last_word
 Beklenen Dosyalar: last_word.c
 İzin verilen fonksiyonlar: write
@@ -27,4 +25,3 @@ $> ./last_word "  lorem,ipsum  " | cat -e
 lorem,ipsum$
 $>
 
-```

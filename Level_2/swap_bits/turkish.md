@@ -1,8 +1,3 @@
-devuelva el resultado.
-
-## Konu
-
-```C
 Ödev Adı: swap_bits
 Beklenen Dosyalar: swap_bits.c
 İzin verilen fonksiyonlar: yok
@@ -22,5 +17,3 @@ _____________
      \ /
      / \
  0001 | 0100
-
-```

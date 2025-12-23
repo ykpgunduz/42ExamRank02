@@ -22,4 +22,3 @@ Nb slihv rh Znzarmt.$
 $>./alpha_mirror | cat -e
 $
 $>
-```

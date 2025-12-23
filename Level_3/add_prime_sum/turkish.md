@@ -1,9 +1,7 @@
 de todos los números primos inferiores o iguales a él, seguido de un salto de línea.
 simplemente muestra 0 seguido de un salto de línea.
 
-## Konu
 
-```c
 Ödev Adı: add_prime_sum
 Beklenen Dosyalar: add_prime_sum.c
 İzin verilen fonksiyonlar: write, exit
@@ -24,4 +22,3 @@ $>./add_prime_sum 7 | cat -e
 $>./add_prime_sum | cat -e
 0$
 
-```

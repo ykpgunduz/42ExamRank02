@@ -1,8 +1,6 @@
 devolver un puntero al primer valor del array.
 
-## Konu
 
-```c
 Ödev Adı: ft_rrange
 Beklenen Dosyalar: ft_rrange.c
 İzin verilen fonksiyonlar: malloc
@@ -21,4 +19,3 @@ Bellek ayırmalı (malloc ile) bir tamsayı dizisi oluşturmalı, end'den start'
 - (0, 0) ile 0 içeren bir dizi döndürür.
 - (0, -3) ile -3, -2, -1 ve 0 içeren bir dizi döndürür.
 
-```

@@ -1,9 +1,7 @@
 a un entero (base 10) y lo devuelva.
 ejemplo, la base 4 reconoce "0123" y la base 16 reconoce "0123456789abcdef".
 
-## Konu
 
-```c
 Ödev Adı: ft_atoi_base
 Beklenen Dosyalar: ft_atoi_base.c
 İzin verilen fonksiyonlar: Yok
@@ -20,4 +18,3 @@ Fonksiyonunuzu şu şekilde tanımlayın:
 
 int	ft_atoi_base(const char *str, int str_base);
 
-```

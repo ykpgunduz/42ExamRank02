@@ -1,7 +1,5 @@
 
-## Konu
 
-```C
 Ödev Adı: rev_wstr
 Beklenen Dosyalar: rev_wstr.c
 İzin verilen fonksiyonlar: write, malloc, free
@@ -27,4 +25,3 @@ $> ./rev_wstr | cat -e
 $
 $>
 
-```

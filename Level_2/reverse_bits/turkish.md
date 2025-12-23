@@ -1,8 +1,6 @@
 ejemplo) y devuelva el resultado.
 
-## Konu
 
-```C
 Ödev Adı: reverse_bits
 Beklenen Dosyalar: reverse_bits.c
 İzin verilen fonksiyonlar: yok
@@ -23,4 +21,3 @@ _____________
 	 \/
  0110  0100
 
-```

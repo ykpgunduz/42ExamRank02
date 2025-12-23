@@ -1,7 +1,5 @@
 
-## Konu
 
-```c
 Ödev Adı: epur_str
 Beklenen Dosyalar: epur_str.c
 İzin verilen fonksiyonlar: write
@@ -25,4 +23,3 @@ $> ./epur_str "" | cat -e
 $
 $>
 
-```

@@ -1,7 +1,5 @@
 
-## Konu
 
-```c
 Ödev Adı: hidenp
 Beklenen Dosyalar: hidenp.c
 İzin verilen fonksiyonlar: write
@@ -22,4 +20,3 @@ $
 $> ./hidenp | cat -e
 $
 
-```

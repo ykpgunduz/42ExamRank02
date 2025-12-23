@@ -1,26 +1,18 @@
-## Subject
-
-```C
-Nombre de la asignación: snake_to_camel
-Archivos esperados: snake_to_camel.c
-Funciones permitidas: malloc, free, realloc, write
+Ödev Adı: snake_to_camel
+Beklenen Dosyalar: snake_to_camel.c
+İzin verilen fonksiyonlar: malloc, free, realloc, write
 --------------------------------------------------------------------------------
 
-Escribe un programa que tome una sola cadena en formato snake_case
-y la convierta en una cadena en formato lowerCamelCase.
+snake_case formatında tek bir dize alan ve bunu lowerCamelCase formatına dönüştüren bir program yazın.
 
-Una cadena en snake_case es una cadena donde cada palabra está en minúsculas, separadas por
-un guion bajo "_".
+snake_case formatı, her kelimenin küçük harflerle yazıldığı ve alt çizgi "_" ile ayrıldığı bir dizedir.
 
-Una cadena en lowerCamelCase es una cadena donde cada palabra comienza con una letra mayúscula
-excepto la primera.
+lowerCamelCase formatı, ilk kelime hariç her kelimenin büyük harfle başladığı bir dizedir.
 
-Ejemplos:
+Örnekler:
 $>./snake_to_camel "here_is_a_snake_case_word"
 hereIsASnakeCaseWord
 $>./snake_to_camel "hello_world" | cat -e
 helloWorld$
 $>./snake_to_camel | cat -e
 $
-
-```

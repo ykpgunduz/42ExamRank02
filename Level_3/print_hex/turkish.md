@@ -1,6 +1,4 @@
-## Subject
 
-```c
 Nombre de la tarea: print_hex
 Archivos esperados: print_hex.c
 Funciones permitidas: write
@@ -22,4 +20,3 @@ $> ./print_hex "5156454" | cat -e
 $> ./print_hex | cat -e
 $
 
-```

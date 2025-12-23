@@ -1,6 +1,3 @@
-## Subject
-
-```C
 Nombre de la tarea: ft_list_remove_if
 Archivos esperados: ft_list_remove_if.c
 Funciones permitidas: free
@@ -24,5 +21,3 @@ typedef struct      s_list
     void            *data;
 }                   t_list;
 $>
-
-```

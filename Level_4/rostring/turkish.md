@@ -1,7 +1,5 @@
 
-## Konu
 
-```C
 Ödev Adı: rostring
 Beklenen Dosyalar: rostring.c
 İzin verilen fonksiyonlar: write, malloc, free
@@ -35,4 +33,3 @@ $>./rostring | cat -e
 $
 $>
 
-```

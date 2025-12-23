@@ -1,7 +1,5 @@
 
-## Konu
 
-```C
 Ödev Adı: is_power_of_2
 Beklenen Dosyalar: is_power_of_2.c
 İzin verilen fonksiyonlar: Yok
@@ -15,4 +13,3 @@ Fonksiyonunuzu şu şekilde tanımlayın:
 
 int is_power_of_2(unsigned int n);
 
-```

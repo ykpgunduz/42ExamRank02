@@ -2,9 +2,7 @@ divisible por ambos enteros.
 diferente de 0.
 calcular de la siguiente manera:
 
-## Konu
 
-```c
 Ödev Adı: lcm
 Beklenen Dosyalar: lcm.c
 İzin verilen fonksiyonlar: Yok
@@ -27,4 +25,3 @@ Fonksiyonun prototipi:
 
   unsigned int    lcm(unsigned int a, unsigned int b);
 
-```

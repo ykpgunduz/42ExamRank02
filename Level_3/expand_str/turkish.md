@@ -1,7 +1,5 @@
 
-## Konu
 
-```c
 Ödev Adı: expand_str
 Beklenen Dosyalar: expand_str.c
 İzin verilen fonksiyonlar: write
@@ -25,4 +23,3 @@ $> ./expand_str "" | cat -e
 $
 $>
 
-```

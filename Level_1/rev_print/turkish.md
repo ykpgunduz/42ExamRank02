@@ -1,6 +1,4 @@
-## Konu
 
-```C
 Görev adı: rev_print
 Beklenen dosyalar: rev_print.c
 İzin verilen fonksiyonlar: write
@@ -19,4 +17,3 @@ LIOP a 0bud$
 $> ./rev_print | cat -e
 $
 
-```

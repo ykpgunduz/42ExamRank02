@@ -13,4 +13,3 @@ Tekrarlanan sayılar korunmalıdır.
 
 Girdi her zaman tutarlıdır.
 
-```

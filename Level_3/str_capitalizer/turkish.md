@@ -3,9 +3,7 @@ seguido de un \n.
 por el inicio/fin de la cadena. Si una palabra tiene solo una letra, debe ser
 capitalizada.
 
-## Konu
 
-```c
 Ödev Adı: str_capitalizer
 Beklenen Dosyalar: str_capitalizer.c
 İzin verilen fonksiyonlar: write
@@ -29,4 +27,3 @@ __second Test A Little Bit   Moar Complex$
      Okay, This Is The Last 1239809147801 But Not    The Least    T$
 $>
 
-```

@@ -1,7 +1,3 @@
-
-## Konu
-
-```C
 Ödev Adı: ft_itoa
 Beklenen Dosyalar: ft_itoa.c
 İzin verilen fonksiyonlar: malloc
@@ -13,5 +9,3 @@ Fonksiyon sonucu, ayırdığınız bir karakter dizisi olarak döndürmeli.
 Fonksiyonunuzu şu şekilde tanımlayın:
 
 char	*ft_itoa(int nbr);
-
-```

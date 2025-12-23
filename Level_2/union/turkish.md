@@ -1,7 +1,3 @@
-## Subject
-
-```C
-## Konu
 Ödev Adı: union
 Beklenen Dosyalar: union.c
 İzin verilen fonksiyonlar: write
@@ -26,5 +22,3 @@ $>./union "rien" | cat -e
 $
 $>
 $>
-
-```
