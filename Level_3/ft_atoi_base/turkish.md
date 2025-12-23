@@ -1,7 +1,3 @@
-a un entero (base 10) y lo devuelva.
-ejemplo, la base 4 reconoce "0123" y la base 16 reconoce "0123456789abcdef".
-
-
 Ödev Adı: ft_atoi_base
 Beklenen Dosyalar: ft_atoi_base.c
 İzin verilen fonksiyonlar: Yok

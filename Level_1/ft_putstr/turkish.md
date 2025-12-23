@@ -1,4 +1,3 @@
-
 Görev adı: ft_putstr
 Beklenen dosyalar: ft_putstr.c
 İzin verilen fonksiyonlar: write

@@ -1,4 +1,3 @@
-
 Nombre de la tarea: print_hex
 Archivos esperados: print_hex.c
 Funciones permitidas: write

@@ -1,8 +1,3 @@
-divisible por ambos enteros.
-diferente de 0.
-calcular de la siguiente manera:
-
-
 Ödev Adı: lcm
 Beklenen Dosyalar: lcm.c
 İzin verilen fonksiyonlar: Yok

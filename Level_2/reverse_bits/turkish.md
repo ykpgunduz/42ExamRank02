@@ -1,6 +1,3 @@
-ejemplo) y devuelva el resultado.
-
-
 Ödev Adı: reverse_bits
 Beklenen Dosyalar: reverse_bits.c
 İzin verilen fonksiyonlar: yok

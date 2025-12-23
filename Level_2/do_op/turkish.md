@@ -1,5 +1,3 @@
-
-
 Ödev Adı: do_op
 Beklenen Dosyalar: *.c, *.h
 İzin verilen fonksiyonlar: atoi, printf, write

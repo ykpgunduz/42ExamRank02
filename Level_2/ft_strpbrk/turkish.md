@@ -1,5 +1,3 @@
-
-
 Ödev Adı: ft_strpbrk
 Beklenen Dosyalar: ft_strpbrk.c
 İzin verilen fonksiyonlar: yok

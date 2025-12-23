@@ -9,3 +9,4 @@ Fonksiyon sonucu, ayırdığınız bir karakter dizisi olarak döndürmeli.
 Fonksiyonunuzu şu şekilde tanımlayın:
 
 char	*ft_itoa(int nbr);
+

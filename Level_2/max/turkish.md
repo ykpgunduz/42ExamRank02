@@ -1,5 +1,3 @@
-
-
 Ödev Adı: max
 Beklenen Dosyalar: max.c
 İzin verilen fonksiyonlar: yok

@@ -1,7 +1,3 @@
-de todos los números primos inferiores o iguales a él, seguido de un salto de línea.
-simplemente muestra 0 seguido de un salto de línea.
-
-
 Ödev Adı: add_prime_sum
 Beklenen Dosyalar: add_prime_sum.c
 İzin verilen fonksiyonlar: write, exit

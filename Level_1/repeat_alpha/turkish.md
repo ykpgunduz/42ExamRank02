@@ -1,4 +1,3 @@
-
 Görev adı: repeat_alpha
 Beklenen dosyalar: repeat_alpha.c
 İzin verilen fonksiyonlar: write

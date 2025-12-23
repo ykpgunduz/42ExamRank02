@@ -1,7 +1,3 @@
-otra (tercer argumento).
-entonces el programa simplemente reescribe la cadena seguida de un salto de línea.
-eNcOre Un ExEmPle Pas Facile a Ecrire $
-
 Görev adı: search_and_replace
 Beklenen dosyalar: search_and_replace.c
 İzin verilen fonksiyonlar: write, exit

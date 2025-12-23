@@ -1,5 +1,3 @@
-de la cadena.
-
 Görev adı: first_word
 Beklenen dosyalar: first_word.c
 İzin verilen fonksiyonlar: write

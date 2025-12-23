@@ -1,9 +1,3 @@
-ponga el resto en minúsculas, y muestre el resultado en la salida estándar,
-seguido de un \n.
-por el inicio/fin de la cadena. Si una palabra tiene solo una letra, debe ser
-capitalizada.
-
-
 Ödev Adı: str_capitalizer
 Beklenen Dosyalar: str_capitalizer.c
 İzin verilen fonksiyonlar: write

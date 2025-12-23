@@ -1,5 +1,3 @@
-
-
 Ödev Adı: last_word
 Beklenen Dosyalar: last_word.c
 İzin verilen fonksiyonlar: write

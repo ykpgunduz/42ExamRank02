@@ -1,4 +1,3 @@
-
 Görev adı: ft_strcpy
 Beklenen dosyalar: ft_strcpy.c
 İzin verilen fonksiyonlar:

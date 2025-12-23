@@ -1,4 +1,3 @@
-
 Nombre de la tarea: ft_list_size
 Archivos esperados: ft_list_size.c, ft_list.h
 Funciones permitidas: Ninguna
@@ -19,5 +18,4 @@ typedef struct    s_list
     struct s_list *next;
     void          *data;
 }                 t_list;
-
 

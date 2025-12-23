@@ -1,5 +1,3 @@
-
-
 Ödev Adı: is_power_of_2
 Beklenen Dosyalar: is_power_of_2.c
 İzin verilen fonksiyonlar: Yok

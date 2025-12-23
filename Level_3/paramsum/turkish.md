@@ -1,5 +1,3 @@
-
-
 Ödev Adı: paramsum
 Beklenen Dosyalar: paramsum.c
 İzin verilen fonksiyonlar: write

@@ -1,5 +1,3 @@
-
-
 Ödev Adı: ft_strrev
 Beklenen Dosyalar: ft_strrev.c
 İzin verilen fonksiyonlar: yok

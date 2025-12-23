@@ -16,3 +16,4 @@ $>./snake_to_camel "hello_world" | cat -e
 helloWorld$
 $>./snake_to_camel | cat -e
 $
+

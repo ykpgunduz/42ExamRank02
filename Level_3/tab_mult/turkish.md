@@ -1,6 +1,3 @@
-y dicho número multiplicado por 9 también cabrá en un int.
-
-
 Ödev Adı: tab_mult
 Beklenen Dosyalar: tab_mult.c
 İzin verilen fonksiyonlar: write

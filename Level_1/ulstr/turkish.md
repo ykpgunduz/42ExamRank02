@@ -1,4 +1,3 @@
-
 Görev adı: ulstr
 Beklenen dosyalar: ulstr.c
 İzin verilen fonksiyonlar: write

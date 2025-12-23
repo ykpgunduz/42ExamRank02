@@ -1,6 +1,3 @@
-en minúscula, luego muestra el resultado seguido de un \n.
-
-
 Ödev Adı: rstr_capitalizer
 Beklenen Dosyalar: rstr_capitalizer.c
 İzin verilen fonksiyonlar: write

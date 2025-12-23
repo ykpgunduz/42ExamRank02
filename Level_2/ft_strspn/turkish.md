@@ -1,5 +1,3 @@
-
-
 Ödev Adı: ft_strspn
 Beklenen Dosyalar: ft_strspn.c
 İzin verilen fonksiyonlar: yok

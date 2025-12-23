@@ -1,4 +1,3 @@
-
 Görev adı: ft_swap
 Beklenen dosyalar: ft_swap.c
 İzin verilen fonksiyonlar:

@@ -1,6 +1,3 @@
-devolver un puntero al primer valor del array.
-
-
 Ödev Adı: ft_range
 Beklenen Dosyalar: ft_range.c
 İzin verilen fonksiyonlar: malloc

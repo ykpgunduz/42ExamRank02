@@ -1,4 +1,3 @@
-
 Nombre de la tarea: ft_strlen
 Archivos esperados: ft_strlen.c
 Funciones permitidas:

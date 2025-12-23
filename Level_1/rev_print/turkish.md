@@ -1,4 +1,3 @@
-
 Görev adı: rev_print
 Beklenen dosyalar: rev_print.c
 İzin verilen fonksiyonlar: write

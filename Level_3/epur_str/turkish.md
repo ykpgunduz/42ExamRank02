@@ -1,5 +1,3 @@
-
-
 Ödev Adı: epur_str
 Beklenen Dosyalar: epur_str.c
 İzin verilen fonksiyonlar: write

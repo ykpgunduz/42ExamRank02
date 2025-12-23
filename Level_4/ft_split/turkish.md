@@ -1,5 +1,3 @@
-
-
 Ödev Adı: ft_split
 Beklenen Dosyalar: ft_split.c
 İzin verilen fonksiyonlar: malloc

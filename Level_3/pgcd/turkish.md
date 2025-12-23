@@ -1,5 +1,3 @@
-
-
 Ödev Adı: pgcd
 Beklenen Dosyalar: pgcd.c
 İzin verilen fonksiyonlar: printf, atoi, malloc, free

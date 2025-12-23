@@ -1,5 +1,3 @@
-
-
 Ödev Adı: fprime
 Beklenen Dosyalar: fprime.c
 İzin verilen fonksiyonlar: printf, atoi
@@ -31,3 +29,4 @@ $> ./fprime | cat -e
 $
 $> ./fprime 42 21 | cat -e
 $
+

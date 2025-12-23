@@ -1,4 +1,3 @@
-
 Nombre de la tarea: sort_list
 Archivos esperados: sort_list.c
 Funciones permitidas:
