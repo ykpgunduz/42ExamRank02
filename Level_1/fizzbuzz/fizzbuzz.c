@@ -2,20 +2,17 @@
 
 void	put_num(int n)
 {
-	char	*decimal;
-
-	decimal = "0123456789";
 	if (n > 9)
 		put_num(n / 10);
-	write(1, &decimal[n % 10], 1);
+	write(1, &"0123456789"[n % 10], 1);
 }
 
-void	fizzbuzz(int len)
+int	main(void)
 {
 	int	i;
 
 	i = 1;
-	while (i < len)
+	while (i <= 100)
 	{
 		if (i % 15 == 0)
 			write(1, "fizzbuzz", 8);
@@ -25,13 +22,8 @@ void	fizzbuzz(int len)
 			write(1, "buzz", 4);
 		else
 			put_num(i);
-		i++;
 		write(1, "\n", 1);
+		i++;
 	}
-}
-
-int	main(void)
-{
-	fizzbuzz(101);
 	return (0);
 }

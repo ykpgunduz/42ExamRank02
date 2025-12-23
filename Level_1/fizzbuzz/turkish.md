@@ -1,6 +1,3 @@
-## Konu
-
-```C
 Görev adı: fizzbuzz
 Beklenen dosyalar: fizzbuzz.c
 İzin verilen fonksiyonlar: write

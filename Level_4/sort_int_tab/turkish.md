@@ -1,8 +1,3 @@
-elementos, en orden ascendente.
-
-## Konu
-
-```C
 Ödev Adı: sort_int_tab
 Beklenen Dosyalar: sort_int_tab.c
 İzin verilen fonksiyonlar: -

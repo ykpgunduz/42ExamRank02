@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_atoi_base.c                                     :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: alex <alex@student.42.fr>                  +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/04/10 16:19:47 by alex              #+#    #+#             */
-/*   Updated: 2024/04/11 19:17:41 by alex             ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 int	ft_atoi_base(const char *str, int base)
 {
 	char	*number;
@@ -38,13 +26,3 @@ int	ft_atoi_base(const char *str, int base)
 	}
 	return (sign * result);
 }
-
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	printf("%d\n", ft_atoi_base("-aa", 16));
-	return (0);
-}
-*/
