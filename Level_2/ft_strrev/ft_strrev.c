@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 char *ft_strrev(char *str)
@@ -7,12 +6,10 @@ char *ft_strrev(char *str)
     int end = 0;
     char temp;
 
-    // String'in sonunu bul
     while (str[end])
         end++;
-    end--; // Son karakterin indeksine git
+    end--;
     
-    // Baştan ve sondan ortaya doğru swap yap
     while (start < end)
     {
         temp = str[start];
@@ -22,12 +19,4 @@ char *ft_strrev(char *str)
         end--;
     }
     return (str);
-}
-
-int main(void)
-{
-    char s[] = "ezgi";
-    
-    printf("After: %s\n", ft_strrev(s));
-    return 0;
 }

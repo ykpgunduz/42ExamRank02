@@ -4,9 +4,8 @@
 
 int	do_op(int a, char op, int b)
 {
-	int	result;
+	int	result = 0;
 
-	result = 0;
 	if (op == '*')
 		result = a * b;
 	else if (op == '+')
@@ -22,11 +21,9 @@ int	do_op(int a, char op, int b)
 
 int	main(int argc, char **argv)
 {
-	int	a;
-	int	b;
+	int	a = atoi(argv[1]);
+	int	b = atoi(argv[3]);
 
-	a = atoi(argv[1]);
-	b = atoi(argv[3]);
 	if (argc == 4)
 		printf("%i", do_op(a, argv[2][0], b));
 	printf("\n");
