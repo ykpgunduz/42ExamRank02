@@ -10,4 +10,3 @@ Parametresini döndürmelidir.
 Fonksiyonunuzu şu şekilde tanımlayın:
 
 char *ft_strrev(char *str);
-
