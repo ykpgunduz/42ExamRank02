@@ -1,21 +1,20 @@
-Nombre de la tarea: ft_list_foreach
-Archivos esperados: ft_list_foreach.c, ft_list.h
-Funciones permitidas:
+Görevin Adı: ft_list_foreach
+Beklenen Dosyalar: ft_list_foreach.c, ft_list.h
+İzin Verilen Fonksiyonlar:
 --------------------------------------------------------------------------------
 
-Escribe una función que tome una lista y un puntero a función, y aplique esta
-función a cada elemento de la lista.
+Bir liste ve bir fonksiyon işaretçisi alan ve bu fonksiyonu listenin her
+elemanına uygulayan bir fonksiyon yazın.
 
-Debe ser declarada de la siguiente manera:
+Aşağıdaki şekilde tanımlanmalıdır:
 
 void    ft_list_foreach(t_list *begin_list, void (*f)(void *));
 
-La función apuntada por f se usará de la siguiente manera:
+f tarafından işaret edilen fonksiyon aşağıdaki şekilde kullanılacaktır:
 
 (*f)(list_ptr->data);
 
-Debes usar la siguiente estructura y entregarla en un archivo llamado
-ft_list.h:
+Aşağıdaki yapıyı kullanmalı ve ft_list.h adlı bir dosyada teslim etmelisiniz:
 
 typedef struct    s_list
 {
