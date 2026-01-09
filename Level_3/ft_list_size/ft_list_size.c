@@ -2,9 +2,8 @@
 
 int	ft_list_size(t_list *begin_list)
 {
-	int		len;
+	int	len = 0;
 
-	len = 0;
 	while (begin_list != NULL)
 	{
 		len++;
