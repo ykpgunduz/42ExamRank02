@@ -3,24 +3,28 @@
 
 void	fprime(int nbr)
 {
-	int	div;
+	int	divisor;
+	int	first;
 
-	div = 1;
-	if (nbr < 0)
-		return ;
 	if (nbr == 1)
-		printf("1");
-	while (nbr > div++)
 	{
-		if (nbr % div == 0)
+		printf("1");
+		return ;
+	}
+	divisor = 2;
+	first = 1;
+	while (nbr > 1)
+	{
+		if (nbr % divisor == 0)
 		{
-			printf("%d", div);
-			if (nbr == div)
-				break ;
-			printf("*");
-			nbr /= div;
-			div = 1;
+			if (!first)
+				printf("*");
+			printf("%d", divisor);
+			first = 0;
+			nbr /= divisor;
 		}
+		else
+			divisor++;
 	}
 }
 

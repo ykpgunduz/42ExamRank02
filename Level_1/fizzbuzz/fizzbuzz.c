@@ -2,19 +2,22 @@
 
 void	put_num(int n)
 {
+	char	digit;
+
 	if (n > 9)
 		put_num(n / 10);
-	write(1, &"0123456789"[n % 10], 1);
+	digit = (n % 10) + '0';
+	write(1, &digit, 1);
 }
 
-int	main()
+int	main(void)
 {
 	int	i;
 
 	i = 1;
 	while (i <= 100)
 	{
-		if (i % 15 == 0)
+		if (i % 3 == 0 && i % 5 == 0)
 			write(1, "fizzbuzz", 8);
 		else if (i % 3 == 0)
 			write(1, "fizz", 4);

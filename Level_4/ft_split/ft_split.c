@@ -20,7 +20,7 @@ char	**ft_split(char *str)
 	i = 0;
 	j = 0;
 	k = 0;
-	split = (char **)malloc(sizeof(char *) * (ft_strlen(str) + 1));
+	split = malloc((ft_strlen(str) + 1) * sizeof(char *));
 	while (str[i] != '\0')
 	{
 		while (str[i] != ' ')
