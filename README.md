@@ -1,23 +1,17 @@
-# 42 Exam Rank 02 - Çözüm Takip Listesi
-
-Bu dosya, 42 Exam Rank 02 sorularının çözüm durumunu takip etmek için kullanılır.
-Tamamladığınız soruların yanındaki kutucuğu işaretleyebilirsiniz: `- [x]`
-
-
 ## Level 1
 
 - [x] first_word
-- [ ] fizzbuzz
+- [x] fizzbuzz
 - [x] ft_putstr
-- [ ] ft_strcpy
+- [x] ft_strcpy
 - [x] ft_strlen
-- [ ] ft_swap
-- [ ] repeat_alpha
+- [x] ft_swap
+- [x] repeat_alpha
 - [x] rev_print
 - [x] rot_13
-- [ ] rotone
-- [ ] search_and_replace
-- [ ] ulstr
+- [x] rotone
+- [x] search_and_replace
+- [x] ulstr
 
 ---
 
