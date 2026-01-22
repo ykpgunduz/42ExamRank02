@@ -35,11 +35,10 @@ int	ft_atoi(char *str)
 
 int	is_prime(int n)
 {
-	int	i;
+	int	i = 2;
 
-	if (n <= 1)
+	if (n < 2)
 		return (0);
-	i = 2;
 	while (i * i <= n)
 	{
 		if (n % i == 0)

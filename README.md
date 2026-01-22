@@ -49,7 +49,7 @@
 - [ ] ft_list_size
 - [ ] ft_range
 - [ ] ft_rrange
-- [ ] hidenp
+- [x] hidenp
 - [ ] lcm
 - [ ] paramsum
 - [x] pgcd
