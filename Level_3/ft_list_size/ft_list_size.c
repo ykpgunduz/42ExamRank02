@@ -2,12 +2,12 @@
 
 int	ft_list_size(t_list *begin_list)
 {
-	int	len = 0;
+	int	i = 0;
 
-	while (begin_list != NULL)
+	while (begin_list)
 	{
-		len++;
 		begin_list = begin_list->next;
+		i++;
 	}
-	return (len);
+	return (i);
 }
