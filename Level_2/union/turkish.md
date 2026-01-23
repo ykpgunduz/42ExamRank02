@@ -9,7 +9,6 @@ Argüman sayısı 2 değilse, program sadece \n yazdırır.
 
 Örnekler:
 
-
 $>./union zpadinton "paqefwtdjetyiytjneytjoeyjnejeyj" | cat -e
 zpadintoqefwjy$
 $>./union ddf6vewg64f gtwthgdwthdwfteewhrtag6h4ffdhsd | cat -e
@@ -22,4 +21,3 @@ $>./union "rien" | cat -e
 $
 $>
 $>
-
