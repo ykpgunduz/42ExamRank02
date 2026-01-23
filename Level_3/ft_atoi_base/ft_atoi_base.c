@@ -1,25 +1,35 @@
 int	ft_atoi_base(const char *str, int base)
 {
-	char	*number;
-	int		result = 0;
-	int		sign = 1;
-	int		i = 0;
+	int i = 0;
+	int result = 0;
+	int sign = 1;
+	int val;
 
-	number = (char *)str;
-	if (number[i] == '-')
+	while (str[i] == ' ' || (str[i] >= 9 && str[i] <= 13))
+		i++;
+	if (str[i] == '-' || str[i] == '+')
 	{
-		sign *= -1;
+		if (str[i] == '-')
+			sign = -1;
 		i++;
 	}
-	while (number[i] != '\0')
+
+	while (str[i])
 	{
-		if (number[i] >= '0' && number[i] <= '9')
-			result = result * base + number[i] - '0';
-		else if (number[i] >= 'A' && number[i] <= 'F')
-			result = result * base + number[i] - '7';
-		else if (number[i] >= 'a' && number[i] <= 'f')
-			result = result * base + number[i] - 'W';
+		if (str[i] >= '0' && str[i] <= '9')
+			val = str[i] - '0';
+		else if (str[i] >= 'a' && str[i] <= 'f')
+			val = str[i] - 'a' + 10;
+		else if (str[i] >= 'A' && str[i] <= 'F')
+			val = str[i] - 'A' + 10;
+		else
+			break;
+		
+		if (val >= base)
+			break;
+
+		result = result * base + val;
 		i++;
 	}
-	return (sign * result);
+	return (result * sign);
 }
