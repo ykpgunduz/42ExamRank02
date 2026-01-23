@@ -2,29 +2,32 @@
 
 void	last_word(char *str)
 {
-	int	i;
+	int i = 0;
+	int start;
+	int end;
 
-	i = 0;
-	while (str[i] != '\0')
+	while (str[i])
 		i++;
-	i -= 1;
-	if (str[i] == ' ' || str[i] == '\t')
-	{
-		while (str[i] == ' ' || str[i] == '\t')
-			--i;
-	}
-	while (str[i] != ' ' && i > 0)
+	i--;
+
+	while (i >= 0 && (str[i] == ' ' || str[i] == '\t'))
 		i--;
-	while (str[i] != '\0')
+	
+	end = i;
+
+	while (i >= 0 && (str[i] != ' ' && str[i] != '\t'))
+		i--;
+	
+	start = i + 1;
+
+	while (start <= end)
 	{
-		if (i == 0)
-			write(1, &str[0], 1);
-		i++;
-		write(1, &str[i], 1);
+		write(1, &str[start], 1);
+		start++;
 	}
 }
 
-int	main(int argc, char **argv)
+int main(int argc, char **argv)
 {
 	if (argc == 2)
 		last_word(argv[1]);
