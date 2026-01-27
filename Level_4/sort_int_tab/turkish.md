@@ -12,4 +12,3 @@ void sort_int_tab(int *tab, unsigned int size);
 Tekrarlanan sayılar korunmalıdır.
 
 Girdi her zaman tutarlıdır.
-
