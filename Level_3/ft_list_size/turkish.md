@@ -1,17 +1,15 @@
-Nombre de la tarea: ft_list_size
-Archivos esperados: ft_list_size.c, ft_list.h
-Funciones permitidas: Ninguna
+Ödev Adı: ft_list_size
+Beklenen Dosyalar: ft_list_size.c, ft_list.h
+Kullanılabilir Fonksiyonlar:
 --------------------------------------------------------------------------------
 
-Escribe una función que devuelva el número de elementos en la lista enlazada que se le
-pasa como argumento.
+Bağlı listenin (linked list) eleman sayısını döndüren bir fonksiyon yazınız.
 
-Debe ser declarada de la siguiente manera:
+Fonksiyon şu şekilde tanımlanmalıdır:
 
-int	ft_list_size(t_list *begin_list);
+int ft_list_size(t_list *begin_list);
 
-Debes utilizar la siguiente estructura y entregarla como un archivo llamado
-ft_list.h:
+Aşağıdaki yapıyı kullanmalı ve ft_list.h adında bir dosyada sunmalısınız:
 
 typedef struct    s_list
 {

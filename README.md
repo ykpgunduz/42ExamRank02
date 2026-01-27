@@ -43,8 +43,8 @@
 ## Level 3
 
 - [ ] add_prime_sum
-- [ ] epur_str
-- [ ] expand_str
+- [x] epur_str
+- [x] expand_str
 - [ ] ft_atoi_base
 - [ ] ft_list_size
 - [ ] ft_range
