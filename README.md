@@ -46,7 +46,7 @@
 - [x] epur_str
 - [x] expand_str
 - [ ] ft_atoi_base
-- [ ] ft_list_size
+- [x] ft_list_size
 - [ ] ft_range
 - [ ] ft_rrange
 - [x] hidenp
