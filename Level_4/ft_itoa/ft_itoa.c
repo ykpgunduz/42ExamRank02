@@ -3,9 +3,8 @@
 
 int	len_int(int nbr)
 {
-	int	len;
+	int	len = 0;
 
-	len = 0;
 	if (nbr == 0)
 		return (1);
 	if (nbr < 0)
