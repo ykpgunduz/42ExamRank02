@@ -1,39 +1,42 @@
 #include <stdlib.h>
 
-int	ft_strlen(char *str)
+int ft_strlen(char *str)
 {
-	int	len;
-
-	len = 0;
-	while (str[len] != '\0')
-		len++;
-	return (len);
+    int len = 0;
+    while (str[len])
+        len++;
+    return (len);
 }
 
-char	**ft_split(char *str)
+char    **ft_split(char *str)
 {
-	char	**split;
-	int		i;
-	int		j;
-	int		k;
+    int x = 0;
+    int y = 0;
+    int z = 0;
+    int start;
+    char **result = malloc(sizeof(char *) * (ft_strlen(str) + 1));
 
-	i = 0;
-	j = 0;
-	k = 0;
-	split = malloc((ft_strlen(str) + 1) * sizeof(char *));
-	while (str[i] != '\0')
-	{
-		while (str[i] != ' ')
-		{
-			split[j][k] = str[i];
-			i++;
-			k++;
-		}
-		split[j][k] = '\0';
-		j++;
-		if (str[i] == ' ')
-			i++;
-	}
-	split[j] = NULL;
-	return (split);
+    while (str[x])
+    {
+        while (str[x] && str[x] == ' ')
+            x++;
+
+        if (str[x])
+        {
+            start = x;
+
+            while (str[x] && str[x] != ' ')
+                x++;
+
+            result[z] = malloc(sizeof(char) * (x - start + 1));
+
+            y = 0;
+            while (start < x)
+                result[z][y++] = str[start++];
+            result[z][y] = '\0';
+            z++;
+        }
+    }
+    result[z] = NULL;
+    return (result);
 }
