@@ -10,20 +10,20 @@ int main(int argc, char **argv)
 		i = 0;
 		while (argv[1][i])
 		{
-			if (used[argv[1][i]] == 0)
+			if (used[(unsigned char)argv[1][i]] == 0)
 			{
 				write(1, &argv[1][i], 1);
-				used[argv[1][i]] = 1;
+				used[(unsigned char)argv[1][i]] = 1;
 			}
 			i++;
 		}
 		i = 0;
 		while (argv[2][i])
 		{
-			if (used[argv[2][i]] == 0)
+			if (used[(unsigned char)argv[2][i]] == 0)
 			{
 				write(1, &argv[2][i], 1);
-				used[argv[2][i]] = 1;
+				used[(unsigned char)argv[2][i]] = 1;
 			}
 			i++;
 		}
